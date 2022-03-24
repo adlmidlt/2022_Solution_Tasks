@@ -56,6 +56,7 @@ func RemoveItem(slice []int, index int) []int {
 			newArr = append(newArr, slice[i])
 		}
 	}
+
 	return newArr
 }
 
