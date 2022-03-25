@@ -10,7 +10,7 @@ func FavoriteCards() []int {
 
 // GetItem retrieves an item from a slice at given position.
 // If the index is out of range, we want it to return -1.
-func GetItem(slice []int, index int) int {
+func GetItem1(slice []int, index int) int {
 	for i := range slice {
 		if i == index {
 			return slice[i]
@@ -47,7 +47,7 @@ func PrependItems(slice []int, value ...int) []int {
 }
 
 // RemoveItem removes an item from a slice by modifying the existing slice.
-func RemoveItem(slice []int, index int) []int {
+func RemoveItem1(slice []int, index int) []int {
 	var newArr []int
 	for i := range slice {
 		if i == index {
