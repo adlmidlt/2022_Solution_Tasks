@@ -1,7 +1,5 @@
 package main
 
-import "fmt"
-
 const BatteryFull = 100
 
 /*type Car struct {
@@ -80,18 +78,18 @@ true, если автомобиль может закончить гонку; в
 	return false
 }*/
 
-func main() {
+/*func main() {
 
-	speed := 5
-	batteryDrain := 5
-	car := NewCar(speed, batteryDrain)
-	car = Drive(car)
-	fmt.Println(car)
-	/*
-		dist := 24
-		raceTrack := NewTrack(dist)
+speed := 5
+batteryDrain := 5
+car := NewCar(speed, batteryDrain)
+car = Drive(car)
+fmt.Println(car)*/
+/*
+	dist := 24
+	raceTrack := NewTrack(dist)
 
-		fmt.Println(CanFinish(car, raceTrack))
+	fmt.Println(CanFinish(car, raceTrack))
 
-		fmt.Println(raceTrack)*/
-}
+	fmt.Println(raceTrack)*/
+//}

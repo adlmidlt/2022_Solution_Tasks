@@ -1,8 +1,6 @@
 package main
 
-import "fmt"
-
-type Car struct {
+/*type Car struct {
 	speed        int
 	batteryDrain int
 	battery      int
@@ -61,8 +59,8 @@ func CanFinish(car Car, track Track) bool {
 
 	return false
 }
-
-func main() {
+*/
+/*func main() {
 	speed := 2
 	batteryDrain := 6
 	car := NewCar(speed, batteryDrain)
@@ -72,4 +70,4 @@ func main() {
 	raceTrack := NewTrack(dist)
 
 	fmt.Println(CanFinish(car, raceTrack))
-}
+}*/
