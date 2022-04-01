@@ -6,7 +6,7 @@ import (
 	"unicode"
 )
 
-func Valid(id string) bool {
+func Valid1(id string) bool {
 	sum := 0
 
 	if len(id) == 0 || len(id) == 1 {
@@ -46,6 +46,6 @@ func Valid(id string) bool {
 }
 
 func main() {
-	fmt.Println(Valid("059"))
-	fmt.Println(Valid("55 444 285"))
+	//fmt.Println(Valid("059"))
+	//fmt.Println(Valid("55 444 285"))
 }
