@@ -12,7 +12,7 @@ func SeedWithTime() {
 	rand.Seed(time.Now().UnixNano())
 }
 
-// RollADie returns a random int d with 1 <= d <= 20
+// RollADie returns a randomNumber int d with 1 <= d <= 20
 func RollADie() int {
 	SeedWithTime()
 
@@ -25,14 +25,14 @@ func RollADie() int {
 	return num
 }
 
-// GenerateWandEnergy returns a random float64 f with 0.0 <= f < 12.0
+// GenerateWandEnergy returns a randomNumber float64 f with 0.0 <= f < 12.0
 func GenerateWandEnergy() float64 {
 	num := rand.Intn(12)
 
 	return float64(num)
 }
 
-// ShuffleAnimals returns a slice with all eight animal strings in random order
+// ShuffleAnimals returns a slice with all eight animal strings in randomNumber order
 func ShuffleAnimals() []string {
 	arrAnimal := []string{"ant", "beaver", "cat", "dog", "elephant", "fox", "giraffe", "hedgehog"}
 	rand.Shuffle(len(arrAnimal), func(i, j int) {
